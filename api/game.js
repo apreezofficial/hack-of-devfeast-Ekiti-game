@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
   b.textContent = 'RUN BOT';
   b.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:99999;padding:14px 22px;background:#58a6ff;color:#fff;border:0;border-radius:8px;font-weight:bold;font-family:monospace';
   b.onclick = function () {
-    var N = 120;
+    var N = 35;
     var typed = document.getElementById('username').value.trim();
     document.getElementById('username').value = typed || 'apcodesphere';
     function rgb(h) { var d = document.createElement('div'); d.style.color = h; return d.style.color; }
